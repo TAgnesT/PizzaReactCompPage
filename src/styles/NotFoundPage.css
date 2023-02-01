@@ -1,0 +1,29 @@
+.notfound{
+
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.notfound h2{
+
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.notfound a{
+
+    font-size: 25px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.notfound a:hover{
+
+    color: #fa3011;
+}

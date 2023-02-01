@@ -1,0 +1,19 @@
+.footer{
+
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    background-color: #121619;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMedia svg{
+
+    font-size: 40px;
+    margin: 20px;
+    cursor: pointer;
+}

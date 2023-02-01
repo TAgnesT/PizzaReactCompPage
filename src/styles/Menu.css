@@ -1,0 +1,75 @@
+.menu{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menuTitle{
+
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.menuList{
+
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 20px;
+    padding: 60px 0;
+}
+
+.pizzaItem{
+
+    text-align: center;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.pizzaItem:hover{
+
+    box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.pizzaItem div{
+
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.pizzaItem p{
+
+    font-size: 20px;
+}
+
+@media(max-width: 1500px){
+
+    .menuList{
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 900px){
+
+    .menuList{
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
